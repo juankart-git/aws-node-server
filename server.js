@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => 
-    res.send('Hello World with express - AWS !!'))
+    res.send('<h1>Hello World with express - AWS !! <br>HTML</h1>'))
 
 
 app.listen(3000);
